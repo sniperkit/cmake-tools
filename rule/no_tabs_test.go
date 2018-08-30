@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package rule
 
 import (
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/lexer"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/model"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/parser"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/token"
 	"testing"
+
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/lexer"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/model"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/parser"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/token"
 )
 
 var message = "there are tabs"

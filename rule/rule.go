@@ -1,7 +1,12 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package rule
 
 import (
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/model"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/model"
 )
 
 type Error struct {

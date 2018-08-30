@@ -1,14 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"flag"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/lexer"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/model"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/parser"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/rule"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/token"
 	"io/ioutil"
 	"log"
+
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/lexer"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/model"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/parser"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/rule"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/token"
 )
 
 func main() {

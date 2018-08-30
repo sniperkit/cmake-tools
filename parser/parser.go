@@ -1,8 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parser
 
 import (
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/model"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/token"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/model"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/token"
 )
 
 func Parse(tokens <-chan Token, items chan<- Item) {

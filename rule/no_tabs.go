@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package rule
 
 import (
 	"errors"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/model"
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/token"
+
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/model"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/token"
 )
 
 // no tabs allowed

@@ -1,7 +1,12 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parser
 
 import (
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/token"
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/token"
 )
 
 type lexer struct {

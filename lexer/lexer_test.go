@@ -1,8 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parser
 
 import (
-	. "github.com/daniel-fanjul-alcuten/cmake-tools/token"
 	"testing"
+
+	. "github.com/sniperkit/snk.fork.daniel-fanjul-alcuten-cmake-tools/token"
 )
 
 func TestEmpty(t *testing.T) {
